@@ -1,8 +1,3 @@
-# Aspire Marketing Site
-
-The Aspire Marketing site based on the Webstacks UI Library.
-This site is built on Gatsby and uses Contentful as a CMS.
-<br />
 
 ## Get started
 
