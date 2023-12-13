@@ -21,7 +21,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test": "jest",
-    "chromatic": "npx chromatic --project-token=chpt_ee8bfa125b18c7b"
   },
   "dependencies": {
     "@graphql-codegen/cli": "^5.0.0",
