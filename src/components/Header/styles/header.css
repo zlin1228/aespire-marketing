@@ -1,0 +1,35 @@
+.header-nav-item {
+  position: relative;
+}
+
+.header-nav-item:hover::after,
+.header-nav-item.active::after {
+  width: 100%;
+  @apply bg-yellow-400;
+}
+
+.header-nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 0%;
+  height: 4px;
+  @apply bg-yellow-400;
+  transition: width 250ms ease-in-out;
+}
+
+.header-sub-menu-psuedo-el::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='38' viewBox='0 0 30 38' fill='none'%3E%3Cpath d='M28.2178 17.2948C29.491 18.0751 29.491 19.9249 28.2178 20.7052L0 38L0 0L28.2178 17.2948Z' fill='%23F9FAFB'/%3E%3C/svg%3E");
+  position: absolute;
+  right: -31px;
+  top: 35%;
+}
+
+.header-sub-menu-psuedo-el::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='101' height='106' viewBox='0 0 101 106' fill='none'%3E%3Cg filter='url(%23filter0_d_9995_12068)'%3E%3Cpath d='M59.0861 36.2781C60.3962 37.0523 60.3961 38.9477 59.0861 39.7219L40 51L40 25L59.0861 36.2781Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_9995_12068' x='7.15256e-07' y='0' width='100.069' height='106' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='15'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.0431373 0 0 0 0 0.101961 0 0 0 0 0.129412 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_9995_12068'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_9995_12068' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+  position: absolute;
+  right: -61px;
+  top: 21%;
+}

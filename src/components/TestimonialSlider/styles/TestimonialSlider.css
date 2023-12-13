@@ -1,0 +1,19 @@
+.testimonial-slider .swiper-slide {
+  width: 100%;
+}
+
+@media (min-width: 834px) {
+  .testimonial-slider .swiper {
+    overflow: visible;
+  }
+
+  .testimonial-slider .swiper-slide {
+    width: 336px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .testimonial-slider .swiper-slide {
+    width: 384px;
+  }
+}

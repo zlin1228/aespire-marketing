@@ -1,0 +1,28 @@
+.footer-form-container form {
+  @apply xl:max-w-[352px];
+}
+
+.footer-form-container .hs-form-field {
+  @apply w-full;
+}
+
+.footer-form-container input {
+  min-width: 100% !important;
+  padding: 8px 12px !important;
+  @apply text-sm;
+  @apply text-gray-500;
+  @apply font-normal;
+}
+
+.footer-form-container input.hs-button {
+  max-width: 100% !important;
+  min-width: fit-content !important;
+  padding: 10px 16px !important;
+  @apply md:max-w-[117px];
+  @apply text-gray-500;
+  @apply font-normal;
+}
+
+.footer-form-container label.hs-error-msg {
+  @apply text-xs;
+}
